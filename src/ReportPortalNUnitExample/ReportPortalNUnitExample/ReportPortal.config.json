@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/reportportal/agent-net-nunit/master/src/ReportPortal.NUnitExtension/ReportPortal.config.schema",
+  "enabled": true,
+  "server": {
+    "url": "https://rp.epam.com/api/v1/",
+    "project": "superadmin_personal",
+    "authentication": {
+      "uuid": ""
+    }
+  },
+  "launch": {
+    "name": "ReportPortal Log Level Bug",
+    "description": "A simple example to illustrate the log level issue",
+    "debugMode": true
+  },
+  "rootNamespaces": [
+    "ReportPortalNUnitExample.dll",
+    "ReportPortalNUnitExample"
+  ]
+}
